@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
 	<link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-	
+    
+    <div class="logo">
+		<img src="./img/logo.png" alt="logo">
+        <h1>Toboolist</h1>
+    </div>
+    
+	<div class="buttons">
+		<button class="add-task-btn">Add Task</button>
+		<button class="add-section-btn">Add Section</button>
+	</div>
+
+    <div class="task-container">
+        <section class="task-section">
+            <h2>New Task</h2>
+            <ul>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Quarterly Newsletter 
+                    <span class="badge editorial">Editorial</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="task-section">
+            <h2>Today</h2>
+            <ul>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Recruiting blog post 
+                    <span class="badge editorial">Editorial</span>
+                </li>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Mobile app launch
+                    <span class="badge q1-goals">Q1 Goals</span>
+                </li>
+                <li>
+                    <span class="task-status incomplete">&#x2716;</span>
+                    Interview John H.
+                    <span class="badge recruiting">Recruiting</span>
+                </li>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Summit update to mobile storefronts
+                    <span class="badge mobile">Mobile</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="task-section">
+            <h2>Upcoming</h2>
+            <ul>
+                <li>
+                    <span class="task-status incomplete">&#x2716;</span>
+                    Schedule meeting with Alex
+                </li>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Homepage refresh
+                    <span class="badge website">Website</span>
+                </li>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Onboard new Sales team members
+                    <span class="badge sales">Sales</span>
+                </li>
+                <li>
+                    <span class="task-status complete">&#x2714;</span>
+                    Review editorial calendar
+                    <span class="badge editorial">Editorial</span>
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

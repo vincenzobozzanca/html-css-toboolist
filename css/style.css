@@ -1,0 +1,168 @@
+/* Generali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+	margin-top: -100%;
+	margin-down: -100%;
+}
+
+
+
+.logo  {
+	display: flex;
+    align-items:  center;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.buttons {
+	justify-content: start;
+    align-items: center;
+    padding: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+    background-color: white;
+    gap:10px;
+	border-radius: 5px;
+	margin left: 10px;
+}
+
+
+.add-task-btn, .add-section-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-task-btn {
+    background-color: #00b0ff;
+    color: white;
+   
+}
+
+
+
+.add-section-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Sezioni delle attività */
+.task-container {
+	margin: 20px;
+}
+
+.task-section {
+    background-color: white;
+   
+}
+
+.task-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    align-items: center;
+	margin-top: 0px;
+}
+
+.task-section h2:before {
+    content: "\25BC";
+    font-size: 14px;
+    margin-right: 8px;
+  
+}
+
+/* Lista delle attività */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+li:last-child {
+    border-bottom: none; /* Rimuove bordo all'ultima task */
+}
+
+.task-status {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Icona per task completata o incompleta */
+.complete {
+    color: green;
+}
+
+.incomplete {
+    color: red;
+}
+
+/* Badge colorati */
+.badge {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.editorial {
+    background-color: #1e90ff; /* Blu per Editorial */
+}
+
+.q1-goals {
+    background-color: #9370db; /* Viola per Q1 Goals */
+}
+
+.recruiting {
+    background-color: #3cb371; /* Verde per Recruiting */
+}
+
+.mobile {
+    background-color: #ffa500; /* Arancione per Mobile */
+}
+
+.website {
+    background-color: #ff69b4; /* Rosa per Website */
+}
+
+.sales {
+    background-color: #9acd32; /* Verde chiaro per Sales */
+}
+
+
+    
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
